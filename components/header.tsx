@@ -2,19 +2,32 @@ import Marquee from "./marquee"
 
 
 export const Header=()=>{
-    const name = 'AKANKSHA GAJANKAR '
+    const name = ' AKANKSHA GAJANKAR '
     const nameArray = name.split("")
     return(
-        <h1 className=" text-[{
-            font-size: 24rem;
-            line-height: 1;
-        }] bg-blue-900 h-screen flex flex-col justify-center items-center">
-            <div className="h-full flex-3 flex justify-center items-center">
+        <h1 className="  bg-blue-900 h-screen flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center flex-1 mt-8">
+                <strong>Akanksha Gajankar</strong>
+                <em>"Simplicity is the ultimate sophistication." </em>
+            </div>
+            <div className="h-full flex-2 flex justify-center items-center">
             <Marquee items={nameArray} />
             </div>
-            <div className="flex-1 flex justify-start items-end h-full w-full text-8xl">
-            <button className="m-2">Boo</button>
-           
+            <div className="flex-2  flex justify-center items-start h-full w-full font-bold text-center">
+      
+            <nav>
+                <ul>
+                    <li>
+                        akankshagajankar@gmail.com
+                    </li>
+                    <li>
+                        UX/UI Designer
+                    </li>
+                    <li>
+                        Based in Goa, India
+                    </li>
+                </ul>
+            </nav>
             </div>
         </h1>
     )

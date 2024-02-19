@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={playflair.className}>
+      <body className={playflair.className+" "+" bg-blue-900 text-blue-100"}>
         <Header />
         {children}
       </body>
