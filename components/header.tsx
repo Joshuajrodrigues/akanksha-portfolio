@@ -8,7 +8,7 @@ export const Header=()=>{
         <h1 className="  bg-blue-900 h-screen flex flex-col justify-center items-center">
             <div className="flex flex-col justify-center items-center flex-1 mt-8">
                 <strong>Akanksha Gajankar</strong>
-                <em>"Simplicity is the ultimate sophistication." </em>
+                <em>&quot;Simplicity is the ultimate sophistication.&quot;</em>
             </div>
             <div className="h-full flex-2 flex justify-center items-center">
             <Marquee items={nameArray} />
