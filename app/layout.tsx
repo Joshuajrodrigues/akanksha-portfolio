@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
-import "./globals.css";
+import { Playfair_Display, } from "next/font/google";
+import "./globals.scss";
 import { Header } from "@/components/header";
 
-const inter = Inter({ subsets: ["latin"] });
 const playflair = Playfair_Display({subsets:["latin"]})
 export const metadata: Metadata = {
   title: "Akanksha Gajankar",
