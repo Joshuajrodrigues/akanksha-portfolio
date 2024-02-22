@@ -10,8 +10,8 @@ export const Header=()=>{
             <div className="flex flex-col justify-center items-center flex-1 mt-8">
                 <strong>Akanksha Gajankar</strong>
                 <em>&quot;Simplicity is the ultimate sophistication.&quot;</em>
+            <SpinnyThing text="UXUI.ARTIST.BOO." />
             </div>
-            <SpinnyThing text="More Boo" />
             <div className="h-full flex-2 flex justify-center items-center">
             <Marquee items={nameArray} />
             </div>
