@@ -8,8 +8,6 @@ export const Header=()=>{
     return(
         <h1 className="  bg-blue-900 h-screen flex flex-col justify-center items-center">
             <div className="flex flex-col justify-center items-center flex-1 mt-8">
-                <strong>Akanksha Gajankar</strong>
-                <em>&quot;Simplicity is the ultimate sophistication.&quot;</em>
             <SpinnyThing text="UXUI.ARTIST.BOO." />
             </div>
             <div className="h-full flex-2 flex justify-center items-center">
@@ -18,6 +16,7 @@ export const Header=()=>{
             <div className="flex-2  flex justify-center items-start h-full w-full font-bold text-center">
       
             <nav>
+                <em>&quot;Simplicity is the ultimate sophistication.&quot;</em>
                 <ul>
                     <li>
                         akankshagajankar@gmail.com
