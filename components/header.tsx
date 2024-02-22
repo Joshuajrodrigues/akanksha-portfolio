@@ -11,7 +11,7 @@ export const Header=()=>{
                 <strong>Akanksha Gajankar</strong>
                 <em>&quot;Simplicity is the ultimate sophistication.&quot;</em>
             </div>
-            <SpinnyThing text="BESTEST BOO EVEA" />
+            <SpinnyThing text="More Boo" />
             <div className="h-full flex-2 flex justify-center items-center">
             <Marquee items={nameArray} />
             </div>
