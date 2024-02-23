@@ -1,35 +1,22 @@
-import Marquee from "./marquee"
-import { SpinnyThing } from "./spinnyThing/spinnyThing"
+import HeroVideo from "./heroVideo";
+import Marquee from "./marquee";
+import { SpinnyThing } from "./spinnyThing/spinnyThing";
 
-
-export const Header=()=>{
-    const name = ' AKANKSHA GAJANKAR '
-    const nameArray = name.split("")
-    return(
-        <h1 className="  bg-blue-900 h-screen flex flex-col justify-center items-center">
-            <div className="flex flex-col justify-center items-center flex-1 mt-8">
-            <SpinnyThing text="UXUI.ARTIST.BOO." />
-            </div>
-            <div className="h-full flex-2 flex justify-center items-center">
-            <Marquee items={nameArray} />
-            </div>
-            <div className="flex-2  flex justify-center items-start h-full w-full font-bold text-center">
-      
-            <nav>
-                <em>&quot;Simplicity is the ultimate sophistication.&quot;</em>
-                <ul>
-                    <li>
-                        akankshagajankar@gmail.com
-                    </li>
-                    <li>
-                        UX/UI Designer
-                    </li>
-                    <li>
-                        Based in Goa, India
-                    </li>
-                </ul>
-            </nav>
-            </div>
+export const Header = () => {
+  return (
+    <header>
+      <HeroVideo/>
+    
+      <div className=" min-h-screen flex flex-col items-center justify-center">
+        <h1 className="z-50  mx-16 text-8xl text-center font-extrabold ">
+          TRYING TO BUILD <br /> EXPERIENCES THAT STAY <br /> WITH YOU
         </h1>
-    )
-}
+        <div className="h-1 z-50 mt-24 w-1/3 bg-white"></div>
+        <h2 className="z-50 mt-8 text-4xl">
+          AKANKSHA GAJANKAR
+        </h2>
+        <strong className="z-50 text-3xl mt-8">UIUX DESIGNER</strong>
+      </div>
+    </header>
+  );
+};
