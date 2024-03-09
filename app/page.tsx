@@ -11,7 +11,7 @@ export default function Home() {
       <section>
       
       <Typography>
-       i'm a <Accent>uiux designer</Accent> passionate about crafting and <Accent>exploring experiences</Accent>  that stay with you.
+       i&apos;m a <Accent>uiux designer</Accent> passionate about crafting and <Accent>exploring experiences</Accent>  that stay with you.
       </Typography>
       <Typography>
       This is a showcase of my professional and personal work. i hope you enjoy it.<Cursor/>
