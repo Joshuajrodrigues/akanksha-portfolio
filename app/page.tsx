@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className=" flex flex-col h-svh items-center justify-center">
       <Navmenu  />
-      <header className="text-start w-full p-2 m-1">
+      <header className="text-start w-full p-2 m-1 h-24">
 
       <TypeText hideCursor={true} text="HELLO!"/>
       <TypeText delay={1}/>
