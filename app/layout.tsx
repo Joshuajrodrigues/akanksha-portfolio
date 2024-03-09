@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Playfair_Display,Allerta } from "next/font/google";
+import { IBM_Plex_Sans } from "next/font/google";
 import "./globals.scss";
-import { Header } from "@/components/header";
 
-const playflair = Allerta({
-  weight:["400"],
+const imbPlexSans = IBM_Plex_Sans({
+  weight:["400","100","500"],
   subsets:["latin"]
 })
 export const metadata: Metadata = {
@@ -19,8 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={playflair.className+" "+" text-white"}>
-        <Header />
+      <body className={imbPlexSans.className+" "+" dark:text-white dark:bg-blue-950 text-lighTextPrimary"}>
+
         {children}
       </body>
     </html>

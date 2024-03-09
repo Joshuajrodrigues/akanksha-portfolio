@@ -2,24 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+    :root {
+      --light-color-primary:219.11deg 73.77% 35.88%;/* blue */
+      --light-bg:0deg 100% 100%; /*bg white*/
+      --light-text-primary:0deg 0% 10.59%;
+      --light-border-primary:219.11deg 73.77% 35.88%
+    }
   }
-}
-
-
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+  

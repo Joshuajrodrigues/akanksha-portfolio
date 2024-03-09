@@ -1,23 +1,22 @@
-import About from "@/components/about";
-import InfoLayout from "@/components/infoLayout";
-import Navbar from "@/components/navbar";
-import Paragraph from "@/components/paragraph";
-import Projects from "@/components/projects";
+import NavLink from "@/components/link/link";
+import Navmenu from "@/components/navmenu/navmenu";
+import Cursor from "@/components/typewriter/cursor";
+import Accent from "@/components/typography/accent";
+import Typography from "@/components/typography/typography";
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <main className="flex flex-col  items-center justify-center  text-black">
-        <InfoLayout>
-          <About />
-        </InfoLayout>
-        <InfoLayout>
-          <Projects/>
-        </InfoLayout>
-
-    
-      </main>
-    </>
+    <main className=" flex flex-col h-svh items-center justify-center">
+      <Navmenu />
+      <section>
+      
+      <Typography>
+       i'm a <Accent>uiux designer</Accent> passionate about crafting and <Accent>exploring experiences</Accent>  that stay with you.
+      </Typography>
+      <Typography>
+      This is a showcase of my professional and personal work. i hope you enjoy it.<Cursor/>
+      </Typography>
+      </section>
+    </main>
   );
 }

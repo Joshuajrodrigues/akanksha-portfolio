@@ -7,35 +7,12 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },  fontSize: {
-        'xxl': '18rem', // Example custom font size
-        
-      },
-      animation: {
-        marquee: "marquee 30s linear infinite",
-        marquee2: "marquee2 30s linear infinite",
-        wiggle: 'wiggle 1s ease-in-out infinite',
-      },
-      keyframes: {
-        marquee: {
-          "0%": { transform: "translateX(0%)" },
-          "100%": { transform: "translateX(-100%)" },
-        },
-        marquee2: {
-          "0%": { transform: "translateX(100%)" },
-          "100%": { transform: "translateX(0%)" },
-        },
-        wiggle: {
-          '0%, 100%': { transform: 'rotate(-3deg)' },
-          '50%': { transform: 'rotate(3deg)' },
-        }
-      },
-    },
+    colors:{
+      lightPrimary:'hsl(var(--light-color-primary) / <alpha-value>)',
+      lighBg:'hsl(var(--light-bg) / <alpha-value>)',
+      lighTextPrimary:'hsl(var(--light-text-primary) / <alpha-value>)',
+      lighBorderPrimary:'hsl(var(--light-border-primary) / <alpha-value>)'
+    }
   },
   plugins: [],
 };
