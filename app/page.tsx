@@ -9,7 +9,7 @@ export default function Home() {
       <Navmenu  />
       <header className="text-start w-full p-2 m-1">
 
-      <TypeText hideCursor={true} text="Hello!"/>
+      <TypeText hideCursor={true} text="HELLO!"/>
       <TypeText delay={1}/>
       </header>
       <section>
