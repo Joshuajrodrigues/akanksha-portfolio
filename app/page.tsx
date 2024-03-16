@@ -9,10 +9,10 @@ export default function Home() {
       <div>
         <Navmenu />
       </div>
-      {/* <header className="m-1 flex h-24 w-full flex-col justify-center p-2 text-start">
+      <header className="mt-8 flex h-24 w-full flex-col justify-center p-2 text-start">
         <TypeText hideCursor={true} text="HELLO!" />
         <TypeText delay={1} />
-      </header> */}
+      </header>
       <section className="mt-8">
         <Typography>
           i&apos;m a <Accent>uiux designer</Accent> passionate about crafting
