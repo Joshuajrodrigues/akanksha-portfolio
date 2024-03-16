@@ -3,7 +3,7 @@ import NavLink from '../link/link'
 
 const Navmenu = () => {
   return (
-    <nav>
+    <nav className=' ml-auto max-w-32'>
     <ul className=" space-y-5 p-2">
       <li>
         <NavLink text="Projects" to="/" />
