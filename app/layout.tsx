@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={imbPlexSans.className+" "+" dark:text-white dark:bg-blue-950 text-lighTextPrimary"}>
+      <body className={imbPlexSans.className+" "+" dark:text-white dark:bg-blue-950 bg-lighBg text-lighTextPrimary"}>
 
         {children}
       </body>

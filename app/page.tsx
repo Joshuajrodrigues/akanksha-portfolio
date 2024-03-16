@@ -1,4 +1,5 @@
 import Navmenu from "@/components/navmenu/navmenu";
+import PageTitle from "@/components/pageTitle";
 import TypeText from "@/components/typewriter/typeText";
 import Accent from "@/components/typography/accent";
 import Typography from "@/components/typography/typography";
@@ -23,6 +24,9 @@ export default function Home() {
           enjoy it.
         </Typography> */}
       </section>
+      {/* <section>
+        <PageTitle title="Projects" />
+      </section> */}
     </main>
   );
 }
