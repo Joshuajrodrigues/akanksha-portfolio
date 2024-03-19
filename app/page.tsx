@@ -1,8 +1,12 @@
+import Card from "@/components/card";
+import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 import Navmenu from "@/components/navmenu/navmenu";
 import PageTitle from "@/components/pageTitle";
 import TypeText from "@/components/typewriter/typeText";
 import Accent from "@/components/typography/accent";
 import Typography from "@/components/typography/typography";
+
 
 export default function Home() {
   return (
@@ -19,14 +23,28 @@ export default function Home() {
           i&apos;m a <Accent>uiux designer</Accent> passionate about crafting
           and <Accent>exploring experiences</Accent> that stay with you.
         </Typography>
-        {/* <Typography>
+      </section>
+      {/* <Typography>
           This is a showcase of my professional and personal work. i hope you
           enjoy it.
         </Typography> */}
-      </section>
-      {/* <section>
+      <section className="mt-8">
         <PageTitle title="Projects" />
-      </section> */}
+        <div className=" space-y-4">
+
+          <Card />
+          <Card />
+          <Card />
+        </div>
+      </section>
+      <section className="mt-8">
+        <PageTitle title="SAY Hello!" />
+        <Typography>
+          get in touch for any inquiries or just come say hi and we can discuss some cool things.
+        </Typography>
+        <Contact />
+      </section>
+      <Footer />
     </main>
   );
 }

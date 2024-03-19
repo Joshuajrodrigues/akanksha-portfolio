@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans } from "next/font/google";
 import "./globals.scss";
+import Footer from "@/components/footer";
 
 const imbPlexSans = IBM_Plex_Sans({
-  weight:["400","100","500"],
-  subsets:["latin"]
+  weight: ["400", "100", "500"],
+  subsets: ["latin"]
 })
 export const metadata: Metadata = {
   title: "Akanksha Gajankar",
@@ -18,9 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={imbPlexSans.className+" "+" dark:text-white dark:bg-blue-950 bg-lighBg text-lighTextPrimary"}>
+      <body className={imbPlexSans.className + " " + " dark:text-white dark:bg-blue-950 bg-lighBg text-lighTextPrimary"}>
 
         {children}
+
       </body>
     </html>
   );
