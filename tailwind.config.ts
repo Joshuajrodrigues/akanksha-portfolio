@@ -10,6 +10,7 @@ const config: Config = {
     colors:{
       lightPrimary:'hsl(var(--light-color-primary) / <alpha-value>)',
       lighBg:'hsl(var(--light-bg) / <alpha-value>)',
+      lightSecondaryBgGray:`hsl(var(--light-secodary-bg-gray) / <alpha-value>)`,
       lighTextPrimary:'hsl(var(--light-text-primary) / <alpha-value>)',
       lighBorderPrimary:'hsl(var(--light-border-primary) / <alpha-value>)'
     }

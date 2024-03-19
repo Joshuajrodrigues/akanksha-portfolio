@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const Card = () => {
     return (
-        <div >
-            <div className='p-3'>
+        <div className=' ' >
+            <div className='p-3 bg-lightSecondaryBgGray'>
                 <Image src={img} alt='Solar' placeholder='blur' width={300} height={600} />
             </div>
             <div className='flex flex-col justify-start'>

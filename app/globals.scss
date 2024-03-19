@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-    :root {
-      --light-color-primary:219.11deg 73.77% 35.88%;/* blue */
-      --light-bg:60deg 60% 95%; /*bg white*/
-      --light-text-primary:0deg 0% 10.59%;
-      --light-border-primary:219.11deg 73.77% 35.88%
-    }
+  :root {
+    --light-color-primary: 219.11deg 73.77% 35.88%;
+    /* blue */
+    --light-bg: 0deg 100% 100%;
+    /*bg white*/
+    --light-secodary-bg-gray: 0deg 0% 97.65%;
+    --light-text-primary: 0deg 0% 10.59%;
+    --light-border-primary: 219.11deg 73.77% 35.88%
   }
-  
+}
