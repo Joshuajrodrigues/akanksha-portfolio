@@ -10,7 +10,7 @@ import Typography from "@/components/typography/typography";
 
 export default function Home() {
   return (
-    <main className=" m-8 flex h-svh flex-col">
+    <main className=" m-8 flex  flex-col">
       <div>
         <Navmenu />
       </div>
@@ -28,7 +28,7 @@ export default function Home() {
           This is a showcase of my professional and personal work. i hope you
           enjoy it.
         </Typography> */}
-      <section className="mt-8">
+      <section className="mt-8 min-h-svh ">
         <PageTitle title="Projects" />
         <div className="flex flex-col justify-center items-center space-y-4">
 
@@ -37,11 +37,14 @@ export default function Home() {
           <Card />
         </div>
       </section>
-      <section className="mt-8">
-        <PageTitle title="SAY Hello!" />
-        <Typography>
-          get in touch for any inquiries or just come say hi and we can discuss some cool things.
-        </Typography>
+      <section className="mt-8 min-h-svh flex flex-col justify-between items-center">
+        <div>
+
+          <PageTitle title="SAY Hello!" />
+          <Typography>
+            get in touch for any inquiries or just come say hi and we can discuss some cool things.
+          </Typography>
+        </div>
         <Contact />
       </section>
       <Footer />
